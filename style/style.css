@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Intro-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Intro-Regular"),       
+    url("../fonts/intro-regular.woff") format("woff");
+}
+
+.header__button,
+.text-block__button,
+.subscribe__button {
+    background-color: #5222D0;    
+    color: #FFFFFF;
+    font-family: "Intro-Regular";
+    font-weight: bolder;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 100px;
+}
+
+
+.root{
+    max-width: 100%;    
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo {
+    width: 201px;
+    height: 40px;
+    margin: 59px 0px 0px 76px ;
+}
+.header__button {
+    width: 115px;
+    height: 38px;   
+    font-size: 13px;
+    line-height: 13px;
+    margin: 59px 74px 0px 0px;
+}
+
+.title-page {
+    display: flex;
+    margin: 0px 0px 0px 126px;
+    height: 900px;
+}
+
+.title-page__text-block {
+    margin-right: 20px;
+}
+
+.text-block__heading {
+    width: 500px;
+    font-family: "Intro-Regular";
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 60px;
+    line-height: 120%;
+    color: #000000;    
+}
+
+.text-block__text {
+    width: 487px;
+    font-family: "Roboto Slab";
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000000;   
+    margin-bottom: 15px;
+}
+.text-block__button {
+    width: 270px;
+    height: 84px;   
+    font-size: 35px;
+    line-height: 35px;
+    margin-top: 15px;
+    margin-bottom: 73px;
+}
+
+.text-block__picture {
+    max-width: 100%;
+    margin-left: 20px;
+}
+
+.text-block__menu {
+    width: 532px;
+    font-family: "Roboto Slab";
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    color: #5222D0;
+    margin-top: 73px;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: space-between; 
+    list-style: none;  
+}
+
+.menu__list_link {
+    text-decoration: none;
+}
+
+.menu__list_link:hover {
+    text-decoration: underline;
+}
+
+
+.page2 {
+    margin: 89px 0px 0px 125px;
+}
+
+.page2__title {
+    font-family: "Intro-Regular";
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 60px;
+    line-height: 120%;
+    color: #000000;
+    margin-bottom: 20px;
+    }
+
+.page2__cards {
+    width: 1440px;
+    margin-top: 20px;
+}
+
+.page2__cards_row1 {
+    display: flex;    
+}
+
+.page2__cards_row2 {
+    display: flex;    
+}
+
+.features {
+    width: 365px;
+    margin: 35px;   
+    
+}
+.features__picture {
+    margin-bottom: 15px;
+}
+.features__title {
+    font-family: "Intro-Regular";
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 30px;
+    line-height: 120%;
+    color: #000000;
+    margin-bottom: 10px;    
+}
+.features__text {
+    font-family: "Roboto Slab";
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+}
+.subscribe {
+    width: 365px;
+    height: 233px;
+    background-color: #EC615B;
+    padding: 25px 0px 0px 18px;
+    margin-left: 30px;
+}
+.subscribe__title {
+    font-family: "Intro-Regular";
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 30px;
+    line-height: 120%;
+    color: white;
+    margin-bottom: 15px;   
+}
+.subscribe__contact {
+    border: none;
+    width: 325px;
+    height: 50px;
+    margin-bottom: 23px;
+}
+.subscribe__button {
+    width: 150px;
+    height: 38px;
+}
+
+
